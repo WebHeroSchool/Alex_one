@@ -1,3 +1,9 @@
-.title {
+.header-menu__item {
+  font-family: Roboto;
+}
+.main-content__description {
+  font-family: Roboto;
+}
+.main-content__button {
   font-family: Roboto;
 }

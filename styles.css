@@ -240,8 +240,8 @@ body {
 
     .main__description {
       width: 73.3%;
-      margin-left: 49px;
-      margin-bottom: 38px;
+      padding-left: 6px;
+      margin: 0 auto 38px;
       font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
     }
 

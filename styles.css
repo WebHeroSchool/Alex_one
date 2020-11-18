@@ -104,8 +104,24 @@ body {
     margin: 0 0 36px 4px;
 }
 
+@keyframes flash {
+  0% {
+    background: #ECF3FF;
+  }
+  33% {
+    background: #e9ff3647;
+  }
+  67% {
+    background: #3661ff47
+  }
+  100% {
+    background: #ECF3FF;
+  }
+}
+
 .main__title_highlight {
     background: #ECF3FF;
+    animation: flash 2.7s 3 ease-in-out;
 }
 
 .main__description {
